@@ -3,10 +3,10 @@ image: gitpod/workspace-full
 tasks:
   - name: Task 1
     init: |
-      echo "1..." 
+      echo "1..." > /workspace/task1.txt
   - name: Task 2
     init: |
-      echo "2..." 
+      echo "2..." > /workspace/task2.txt
   - name: Task 3
     init: |
-      echo "3..." 
+      echo "3..." > /workspace/task3.txt
