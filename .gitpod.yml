@@ -4,9 +4,12 @@ tasks:
   - name: Task 1
     init: |
       echo "1..." > /workspace/task1.txt
+      echo "OK"
   - name: Task 2
     init: |
       echo "2..." > /workspace/task2.txt
+      echo "OK"
   - name: Task 3
     init: |
       echo "3..." > /workspace/task3.txt
+      echo "OK"
